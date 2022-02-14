@@ -33,12 +33,12 @@ public class ScoreManager : MonoBehaviour
 
     void incrementScore()
     {
-        score += 1;
+        score += 1;       
     }
 
     public void startScore()
     {
-        InvokeRepeating("incrementScore", 0.1f, 0.5f);
+        InvokeRepeating("incrementScore", 0.1f, 0.5f); // scorea kertyy kun aikaa kuluu, tässä 2 pistettä sekunnissa
     }
 
     public void stopScore()
